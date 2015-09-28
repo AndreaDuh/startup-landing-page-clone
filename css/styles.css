@@ -1,5 +1,5 @@
 body {
-	background-color: #ecf0f1;
+	background-color: #fff;
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -20,7 +20,6 @@ div {
 	list-style-type: none;
     float: right;
     font-size: 1.2em;
-    color: #838994;
     margin-right: 8em;
     margin-top: 1.2em;
 }
@@ -30,14 +29,30 @@ div {
 	padding-right: 2.85em;
 }
 
- .top-nav .links > .emphasis {
-	color: #223333;
-}
-
 .logo {
 	float: left;
 	height: 4.5em;
 	margin-left: 24em;
 }
 
+.top-nav a {
+	text-decoration: none;
+	color: #838994;
+}
+
+ .top-nav .links > .emphasis a {
+	color: #223333;
+}
+
+.top-nav a:hover {
+	color: black;
+}
+
 /* NAV STYLE ENDS HERE */
+
+/* HEADER STYLE BEGINS HERE */
+
+.intro {
+	background-image: url('../images/first-background.jpeg');
+	background-size: cover;
+}
