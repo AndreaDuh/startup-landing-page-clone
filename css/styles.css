@@ -1,7 +1,43 @@
 body {
 	background-color: #ecf0f1;
+	font-family: 'Roboto', sans-serif;
 }
 
 div {
 	border: solid 2px chocolate;
 }
+
+/* NAV STYLE STARTS HERE */
+
+.top-nav {
+	position: fixed;
+	background-color: #fff;
+	width: 100%;
+	border-bottom: 1px solid #7f8c8d;
+}
+
+.top-nav .links {
+	list-style-type: none;
+    float: right;
+    font-size: 1.2em;
+    color: #838994;
+    margin-right: 8em;
+    margin-top: 1.2em;
+}
+
+.links li {
+	display: inline;
+	padding-right: 2.85em;
+}
+
+ .top-nav .links > .emphasis {
+	color: #223333;
+}
+
+.logo {
+	float: left;
+	height: 4.5em;
+	margin-left: 24em;
+}
+
+/* NAV STYLE ENDS HERE */
