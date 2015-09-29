@@ -1,10 +1,8 @@
-body {
-	background-color: #fff;
-	font-family: 'Roboto', sans-serif;
-}
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700);
 
-div {
-	border: solid 2px chocolate;
+body {
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
 }
 
 /* NAV STYLE STARTS HERE */
@@ -14,6 +12,8 @@ div {
 	background-color: #fff;
 	width: 100%;
 	border-bottom: 1px solid #7f8c8d;
+	top: 0;
+
 }
 
 .top-nav .links {
@@ -21,7 +21,7 @@ div {
     float: right;
     font-size: 1.2em;
     margin-right: 8em;
-    margin-top: 1.2em;
+    margin-top: 1.3em;
 }
 
 .links li {
@@ -53,6 +53,52 @@ div {
 /* HEADER STYLE BEGINS HERE */
 
 .intro {
-	background-image: url('../images/first-background.jpeg');
+	background-image: url('../images/first-background.jpg');
+	background-position: center bottom;
+	background-repeat: no-repeat;
 	background-size: cover;
+	height: 46em;
 }
+
+.content h1 {
+	font-weight: 300;
+	color: white;
+	padding-top: 4em;
+	text-align: center;
+	font-size: 4em;
+}
+
+.content h3 {
+	font-weight: 300;
+	color: white;
+	text-align: center;
+	font-size: 2em;
+	margin-top: -1em;
+}
+
+.buttons  {
+	color: white;
+	text-align: center;
+	margin-top: 1.5em;
+	height: 75px;
+	width: 220px;
+	background-color: chocolate;
+	border: 1px solid chocolate;
+	border-radius: 5px;
+	margin: 0 auto 0 53.5em;
+}
+
+.buttons a {
+	text-decoration: none;
+	display: block;
+	font-weight: 400;
+	font-size: 1.4em;
+	text-align: center;
+	color: white;
+}
+
+.buttons:hover {
+	background-color: #d35400;
+}
+
+/* HEADER STYLE ENDS HERE */
