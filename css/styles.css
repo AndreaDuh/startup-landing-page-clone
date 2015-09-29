@@ -117,7 +117,7 @@ body {
 	display: inline-block;
 	width: auto 0;
 	margin-top: 3em;
-	padding-left: 16em;
+	padding-left: 15em;
 	text-align: center;
 }
 
@@ -127,4 +127,49 @@ body {
 	font-weight: 400;
 }
 
-/* CASES STYLE BEGINS HERE */
+/* CASES STYLE ENDS HERE */
+
+/* FOOTER STYLE BEGINS HERE */
+
+.social {
+	border-top: 1px solid #bdc3c7;
+	margin-top: 7em;
+}
+
+.social h3 {
+	text-align: center;
+	font-weight: 400;
+	font-size: 1.2em;
+}
+
+.icons li {
+	list-style: none;
+	border-radius: 50%;
+	border: 1px solid #bdc3c7;
+	width: 2.5em;
+	height: 2.5em;
+	display: inline-block;
+	padding: 0.7em;
+	margin: 1.25em 5px 0 0;
+	text-align: center;
+}
+
+.twitter {
+	color: #55acee;
+}
+
+.facebook {
+	color: #4c66a4;
+}
+
+.instagram {
+	color: #3f729b;
+}
+
+.copy {
+	text-align: center;
+	margin-top: 2em;
+	color: #7f8c8d;
+}
+
+/* FOOTER STYLE ENDS HERE */
