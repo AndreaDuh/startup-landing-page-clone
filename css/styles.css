@@ -5,6 +5,17 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
+.content { 
+	width: 970px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
 /* NAV STYLE STARTS HERE */
 
 .top-nav {
@@ -20,8 +31,8 @@ body {
 	list-style-type: none;
     float: right;
     font-size: 1.2em;
-    margin-right: 10em;
     line-height: 50px;
+    margin-top: .6em;
 }
 
 .links li {
@@ -32,7 +43,7 @@ body {
 .logo {
 	float: left;
 	height: 4.5em;
-	margin-left: 18em;
+	margin-top: -.2em;
 }
 
 .top-nav a {
@@ -60,7 +71,7 @@ body {
 	height: 46em;
 }
 
-.content h1 {
+.header h1 {
 	font-weight: 300;
 	color: white;
 	padding-top: 4em;
@@ -68,7 +79,7 @@ body {
 	font-size: 4em;
 }
 
-.content h3 {
+.header h3 {
 	font-weight: 300;
 	color: white;
 	text-align: center;
@@ -78,26 +89,30 @@ body {
 
 .buttons  {
 	color: white;
-	text-align: center;
-	margin-top: 1.5em;
-	height: 75px;
-	width: 220px;
-	background-color: chocolate;
-	border: 1px solid chocolate;
-	border-radius: 5px;
-	margin: 0 auto 0 53.5em;
+    text-align: center;
+    margin-top: 1.563rem;
 }
 
-.buttons a {
-	text-decoration: none;
-	display: block;
-	font-weight: 400;
-	font-size: 1.4em;
-	text-align: center;
+button  {
+	width: 12em;
+	height: 4em;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1em 1.5em;
+    color: white;
+    font-size: 2em;
+}
+
+button a {
 	color: white;
+	text-decoration: none;
+	font-size: 1.5em;
 }
 
-.buttons:hover {
+button:hover {
 	background-color: #d35400;
 }
 
@@ -109,21 +124,21 @@ body {
 	font-weight: 300;
 	font-size: 3em;
 	text-align: center;
-	margin-top: 7.5em;
+	margin-top: 17em;
 }
 
 .devices li {
 	list-style-type: none;
 	display: inline-block;
 	width: auto 0;
-	margin-top: 3em;
-	padding-left: 15em;
+	margin: 3em 0 0 3.5em;
 	text-align: center;
+	padding-right: 1.25em;
 }
 
 .caption { 
 	text-align: center;
-	font-size: 1.8em;
+	font-size: 1.6em;
 	font-weight: 400;
 }
 
@@ -131,45 +146,62 @@ body {
 
 /* FOOTER STYLE BEGINS HERE */
 
+hr {
+    display: block;
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+    border-style: inset;
+    border-width: 1px;
+    border-color: #ecf0f1;
+}
+
+.social hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
+}
+
 .social {
-	border-top: 1px solid #bdc3c7;
-	margin-top: 7em;
+	margin-top: 22em;
+	text-align: center;
+	width: 100%;
 }
 
 .social h3 {
-	text-align: center;
 	font-weight: 400;
 	font-size: 1.2em;
 }
 
 .icons li {
-	list-style: none;
+	border: 1px solid #eaebec;
 	border-radius: 50%;
-	border: 1px solid #bdc3c7;
-	width: 2.5em;
-	height: 2.5em;
-	display: inline-block;
-	padding: 0.7em;
-	margin: 1.25em 5px 0 0;
-	text-align: center;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    margin: .8em .5em;
 }
 
 .twitter {
 	color: #55acee;
+	padding: .8em;
 }
 
 .facebook {
 	color: #4c66a4;
+	padding: .8em;
 }
 
 .instagram {
 	color: #3f729b;
+	padding: .8em;
 }
 
 .copy {
-	text-align: center;
 	margin-top: 2em;
 	color: #7f8c8d;
+	font-weight: 300;
 }
 
 /* FOOTER STYLE ENDS HERE */
